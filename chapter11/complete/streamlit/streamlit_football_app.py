@@ -10,7 +10,8 @@ logging.basicConfig(
     filename='football_app.log',  
     level=logging.INFO,  
 )
-st.set_page_config(page_title="Football App", page_icon=":material/sports_football:")
+st.set_page_config(page_title="Football App", 
+                   page_icon=":material/sports_football:")
 
 page_1 = st.Page("page1.py", title="Team Rosters", icon=":material/trophy:")
 
